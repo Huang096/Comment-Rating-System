@@ -7,7 +7,6 @@ function SubmitButton() {
 
   const handleClick = () => {
     setShowThankYou(true);
-    setTimeout(() => setShowThankYou(false), 5000);  // 5秒后设置showThankYou为false
   };
 
   return (
